@@ -1,24 +1,156 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <title>Merge JSON</title>
 </head>
+<style>
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+
 <body>
-<div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-  <img src="https://play.tailwindcss.com/img/beams.jpg" alt="" class="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" width="1308" />
-  <div class="absolute inset-0 bg-[url(https://play.tailwindcss.com/img/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
-  <div class="relative bg-white px-6 pt-5 pb-4 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
-    <div class="mx-auto max-w-md">
-      <div class="divide-y divide-gray-300/50">
-        <div class="space-y-6 py-8 text-base leading-7 text-gray-600 font-bold">
-          <p class="">Ninja Expres Temanggung</p>
-          <a class="font-light from-neutral-600 mt-1 truncate text-xs " href="https://maps.app.goo.gl/EUyKFT8S6hHhLC1s7">Jl. Kol Sugiyono No.46, Temanggung, Jawa Tengah 56212</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    <button id="share-button">Share to WhatsApp</button>
+    <div id="data-container"></div>
+    <button onclick="copyToClipboard()">Copy Name and Route</button>
+    <button onclick="copyToClipboard2()">Copy Name and Password</button>
+    <script>
+        // Function to load a JSON file
+        async function loadJSON(url) {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return await response.json();
+        }
+
+        // Function to load two JSON files and merge them by ID
+        async function loadAndMergeJSON(url1, url2) {
+            try {
+                const [data1, data2] = await Promise.all([loadJSON(url1), loadJSON(url2)]);
+
+                // Assuming both JSON files are arrays of objects with an 'id' property
+                const mergedData = data1.data.map(item1 => {
+                    const item2 = data2.data.find(item2 => item2.driver_id === item1.driver_id);
+                    return item2 ? {
+                        ...item1,
+                        ...item2
+                    } : item1;
+                });
+
+                displayData(mergedData); // Call displayData with the merged data
+            } catch (error) {
+                console.error('Error loading or merging JSON:', error);
+            }
+        }
+
+        // Function to display data as a table
+        function displayData(data) {
+            const container = document.getElementById('data-container');
+            container.innerHTML = ''; // Clear previous content
+
+            // Create table and header row
+            const table = document.createElement('table');
+            const headerRow = document.createElement('tr');
+            const headers = ['Name', 'Route', 'Password'];
+            headers.forEach(headerText => {
+                const header = document.createElement('th');
+                header.textContent = headerText;
+                headerRow.appendChild(header);
+            });
+            table.appendChild(headerRow);
+
+            // Create rows for each item
+            data.forEach(item => {
+                // Check if all required fields are present
+                if (item.display_name && item.legacy_id && item.route_password) {
+                    const row = document.createElement('tr');
+                    const cells = [item.display_name, item.legacy_id, item.route_password];
+                    cells.forEach(cellText => {
+                        const cell = document.createElement('td');
+                        cell.textContent = cellText;
+                        row.appendChild(cell);
+                    });
+                    table.appendChild(row);
+                }
+            });
+
+            container.appendChild(table);
+        }
+
+        // Example usage
+        const url1 = 'name.json';
+        const url2 = 'RouteLOG.json';
+        loadAndMergeJSON(url1, url2);
+
+        function copyToClipboard() {
+            const table = document.querySelector('table');
+            let textToCopy = '';
+            for (let i = 1; i < table.rows.length; i++) {
+                const name = table.rows[i].cells[0].textContent;
+                const route = table.rows[i].cells[1].textContent;
+                textToCopy += `${name}\t${route}\n`;
+            }
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert('Copied to clipboard!');
+            }).catch(err => {
+                console.error('Error copying to clipboard:', err);
+            });
+        }
+
+        function copyToClipboard2() {
+            const table = document.querySelector('table');
+            let textToCopy = '';
+            for (let i = 1; i < table.rows.length; i++) {
+                const name = table.rows[i].cells[0].textContent;
+                const password = table.rows[i].cells[2].textContent;
+                textToCopy += `${name}\t${password}\n`;
+            }
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert('Copied to clipboard!');
+            }).catch(err => {
+                console.error('Error copying to clipboard:', err);
+            });
+        }
+        document.getElementById('share-button').addEventListener('click', () => {
+            const table = document.querySelector('table');
+            const rows = table.querySelectorAll('tr');
+            let message = '';
+
+            rows.forEach((row, index) => {
+                if (index > 0) { // Skip header row
+                    const cells = row.querySelectorAll('td');
+                    const name = cells[0].textContent;
+                    const password = cells[2].textContent;
+                    message += `${name} ${password}\n`;
+                }
+            });
+
+            const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
 </body>
+
 </html>
