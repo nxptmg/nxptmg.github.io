@@ -1,29 +1,6 @@
 {
     "data": [
         {
-            "id": 71225874,
-            "system_id": "id",
-            "legacy_id": 71225874,
-            "driver_id": 1334278,
-            "vehicle_id": null,
-            "zone_id": 30956,
-            "hub_id": 1344,
-            "datetime": "2024-09-26T00:00:00Z",
-            "date": "2024-09-26",
-            "archived": false,
-            "estimated_end_time": null,
-            "driver_assign_time": "2024-09-25T23:29:03Z",
-            "driver_attendance": -1,
-            "route_comments": "",
-            "outbound_comments": null,
-            "is_ok": null,
-            "status": "IN_PROGRESS",
-            "route_password": "20331729",
-            "created_at": "2024-09-25T22:01:43Z",
-            "updated_at": "2024-09-25T23:29:03Z",
-            "deleted_at": null
-        },
-        {
             "id": 71231121,
             "system_id": "id",
             "legacy_id": 71231121,
