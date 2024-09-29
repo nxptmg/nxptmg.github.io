@@ -3,180 +3,81 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Password</title>
 
-    <title>NXP-TMG</title>
+    <style>
+        /* Basic table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        /* Table header styling */
+        th,
+        td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+
+        /* Table header background color */
+        thead th {
+            background-color: #009879;
+            color: #ffffff;
+        }
+
+        /* Zebra striping for table rows */
+        tbody tr:nth-child(even) {
+            background-color: #f3f3f3;
+        }
+
+        /* Hover effect for table rows */
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .button-rounded {
+            background-color: #008CBA;
+            /* Blue */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+    </style>
 </head>
-<style>
-    .container {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    th,
-    td {
-        padding: 10px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
-    }
-
-    th {
-        background-color: #f2f2f2;
-    
-    .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
-  transition-duration: 0.4s;
-}
-
-.button:hover {
-  background-color: white;
-  color: black;
-  border: 2px solid #4CAF50;
-}
-</style>
 
 <body>
-    <button class="button">Click Me!</button>
+    <h1>Route Password</h1>
+    <button class="button-rounded" id="copyButton">Copy Name and Route</button>
+    <button class="button-rounded" id="shareButton">Share to WhatsApp</button>
+    <button class="button-rounded" id="reloadButton">Reload Data</button>
 
-    <button class="button" id="share-button">Share to WhatsApp</button>
-    <div id="data-container"></div>
-    <button onclick="copyToClipboard()">Copy Name and Route</button>
-    <button onclick="copyToClipboard2()">Copy Name and Password</button>
-    <script>
-        // Function to load a JSON file
-        async function loadJSON(url) {
-            const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return await response.json();
-        }
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th>Name</th>
+                <th>Route</th>
+                <th>Password</th>
+                <!-- Add more headers as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here -->
+        </tbody>
+    </table>
 
-        // Function to load two JSON files and merge them by ID
-        async function loadAndMergeJSON(url1, url2) {
-            try {
-                const [data1, data2] = await Promise.all([loadJSON(url1), loadJSON(url2)]);
-
-                // Assuming both JSON files are arrays of objects with an 'id' property
-                const mergedData = data1.data.map(item1 => {
-                    const item2 = data2.data.find(item2 => item2.driver_id === item1.driver_id);
-                    return item2 ? {
-                        ...item1,
-                        ...item2
-                    } : item1;
-                });
-
-                displayData(mergedData); // Call displayData with the merged data
-            } catch (error) {
-                console.error('Error loading or merging JSON:', error);
-            }
-        }
-
-        // Function to display data as a table
-        function displayData(data) {
-            const container = document.getElementById('data-container');
-            container.innerHTML = ''; // Clear previous content
-
-            // Create table and header row
-            const table = document.createElement('table');
-            const headerRow = document.createElement('tr');
-            const headers = ['Name', 'Route', 'Password'];
-            headers.forEach(headerText => {
-                const header = document.createElement('th');
-                header.textContent = headerText;
-                headerRow.appendChild(header);
-            });
-            table.appendChild(headerRow);
-
-            // Create rows for each item
-            data.forEach(item => {
-                // Check if all required fields are present
-                if (item.display_name && item.legacy_id && item.route_password) {
-                    const row = document.createElement('tr');
-                    const cells = [item.display_name, item.legacy_id, item.route_password];
-                    cells.forEach(cellText => {
-                        const cell = document.createElement('td');
-                        cell.textContent = cellText;
-                        row.appendChild(cell);
-                    });
-                    table.appendChild(row);
-                }
-            });
-
-            container.appendChild(table);
-        }
-
-        // Example usage
-        const url1 = 'name.json';
-        const url2 = 'RouteLOG.json';
-        loadAndMergeJSON(url1, url2);
-
-        function copyToClipboard() {
-            const table = document.querySelector('table');
-            let textToCopy = '';
-            for (let i = 1; i < table.rows.length; i++) {
-                const name = table.rows[i].cells[0].textContent;
-                const route = table.rows[i].cells[1].textContent;
-                textToCopy += `${name}\t${route}\n`;
-            }
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                alert('Copied to clipboard!');
-            }).catch(err => {
-                console.error('Error copying to clipboard:', err);
-            });
-        }
-
-        function copyToClipboard2() {
-            const table = document.querySelector('table');
-            let textToCopy = '';
-            for (let i = 1; i < table.rows.length; i++) {
-                const name = table.rows[i].cells[0].textContent;
-                const password = table.rows[i].cells[2].textContent;
-                textToCopy += `${name}\t${password}\n`;
-            }
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                alert('Copied to clipboard!');
-            }).catch(err => {
-                console.error('Error copying to clipboard:', err);
-            });
-        }
-        document.getElementById('share-button').addEventListener('click', () => {
-            const table = document.querySelector('table');
-            const rows = table.querySelectorAll('tr');
-            let message = '';
-
-            rows.forEach((row, index) => {
-                if (index > 0) { // Skip header row
-                    const cells = row.querySelectorAll('td');
-                    const name = cells[0].textContent;
-                    const password = cells[2].textContent;
-                    message += `${name} ${password}\n`;
-                }
-            });
-
-            const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
-            window.open(whatsappUrl, '_blank');
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
