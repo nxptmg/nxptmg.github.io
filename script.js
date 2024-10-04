@@ -30,8 +30,8 @@ async function loadAndMergeJSON(urls) {
 }
 
 const urls = [
-    '/name.json',
-    '/RouteLOG.json'
+    './name.json',
+    './RouteLOG.json'
 ];
 
 loadAndMergeJSON(urls).then(mergedData => {
