@@ -136,4 +136,4 @@ function reloadData() {
     });
 }
 
-document.getElementById('reloadButton').addEventListener('click', reloadData);
+document.getElementById('reloadData').addEventListener('click', reloadData);
