@@ -1036,29 +1036,6 @@
             "deleted_at": null
         },
         {
-            "id": 72136067,
-            "system_id": "id",
-            "legacy_id": 72136067,
-            "driver_id": 1699897,
-            "vehicle_number": null,
-            "zone_id": 28224,
-            "hub_id": 1344,
-            "datetime": "2024-10-16T17:00:00Z",
-            "date": "2024-10-17",
-            "archived": false,
-            "estimated_end_time": null,
-            "driver_assign_time": null,
-            "driver_attendance": -1,
-            "route_comments": null,
-            "outbound_comments": null,
-            "is_ok": null,
-            "status": "PENDING",
-            "route_password": "23048582",
-            "created_at": "2024-10-16T23:25:27Z",
-            "updated_at": "2024-10-16T23:25:27Z",
-            "deleted_at": null
-        },
-        {
             "id": 72136068,
             "system_id": "id",
             "legacy_id": 72136068,
@@ -1108,7 +1085,7 @@
             "id": 72136324,
             "system_id": "id",
             "legacy_id": 72136324,
-            "driver_id": 1554893,
+            "driver_id": 1715820,
             "vehicle_number": null,
             "zone_id": 28242,
             "hub_id": 1344,
@@ -1124,7 +1101,7 @@
             "status": "IN_PROGRESS",
             "route_password": "23048439",
             "created_at": "2024-10-16T23:27:25Z",
-            "updated_at": "2024-10-17T04:04:49Z",
+            "updated_at": "2024-10-17T07:20:42Z",
             "deleted_at": null
         },
         {
@@ -1570,7 +1547,7 @@
             "legacy_id": 72163197,
             "driver_id": 1554893,
             "vehicle_number": null,
-            "zone_id": 28230,
+            "zone_id": 28242,
             "hub_id": 1344,
             "datetime": "2024-10-16T17:00:00Z",
             "date": "2024-10-17",
@@ -1584,7 +1561,7 @@
             "status": "IN_PROGRESS",
             "route_password": "23084062",
             "created_at": "2024-10-17T06:24:41Z",
-            "updated_at": "2024-10-17T06:31:06Z",
+            "updated_at": "2024-10-17T07:20:55Z",
             "deleted_at": null
         },
         {
