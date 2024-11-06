@@ -1,537 +1,663 @@
 {
     "data": {
-        "after_key": "1344:1716942:72521833",
+        "after_key": "1344:1719833:73008062",
         "results": [
             {
                 "hub_id": 1344,
+                "driver_id": 1252627,
+                "route_id": 72975641,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-Freelance Rider-Didik Prayogo",
+                "total_parcels": 66,
+                "collected_amount": 2841795
+            },
+            {
+                "hub_id": 1344,
                 "driver_id": 1413639,
-                "route_id": 72519920,
+                "route_id": 72975622,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Driver-Eko Prasetyo",
-                "total_parcels": 28,
-                "collected_amount": 3241470
+                "total_parcels": 18,
+                "collected_amount": 2693751
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1436842,
-                "route_id": 72519929,
+                "route_id": 72975626,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Wawan Kurniawan",
-                "total_parcels": 43,
-                "collected_amount": 2620394
+                "total_parcels": 47,
+                "collected_amount": 2819853
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1468190,
-                "route_id": 72521622,
+                "route_id": 72975678,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Asvin Yoga Fadana",
-                "total_parcels": 38,
-                "collected_amount": 1628491
+                "total_parcels": 65,
+                "collected_amount": 3784745
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1500717,
-                "route_id": 72520219,
+                "route_id": 72975644,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Florens Henry A. F.",
-                "total_parcels": 58,
-                "collected_amount": 3849468
+                "total_parcels": 72,
+                "collected_amount": 5589119
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1501040,
+                "route_id": 72975635,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Leader-Soleh Dwi Utomo",
+                "total_parcels": 44,
+                "collected_amount": 3133546
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1532853,
-                "route_id": 72521372,
+                "route_id": 72975667,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Agus Prayitno",
-                "total_parcels": 28,
-                "collected_amount": 2014082
+                "total_parcels": 61,
+                "collected_amount": 3955593
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1552898,
+                "route_id": 72975672,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-Freelance Rider-Maulana Masda Putra",
+                "total_parcels": 61,
+                "collected_amount": 3433879
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1554893,
-                "route_id": 72521375,
+                "route_id": 72975662,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Leader-Kris Febriansyah",
-                "total_parcels": 35,
-                "collected_amount": 1987917
+                "total_parcels": 65,
+                "collected_amount": 3667896
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1555403,
-                "route_id": 72521624,
+                "route_id": 72975664,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Muchamad Umar Wibowo",
-                "total_parcels": 45,
-                "collected_amount": 2920063
+                "total_parcels": 49,
+                "collected_amount": 2587084
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1590393,
+                "route_id": 73000835,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-Freelance Rider-Rizal Fachrurrozaq",
+                "total_parcels": 38,
+                "collected_amount": 1974326
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1606516,
-                "route_id": 72520222,
+                "route_id": 72975645,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Arif Yuliyanto",
-                "total_parcels": 30,
-                "collected_amount": 2727450
+                "total_parcels": 48,
+                "collected_amount": 3214688
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1607133,
-                "route_id": 72520363,
+                "route_id": 72975654,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Ichsan Surya Pandhu",
-                "total_parcels": 41,
-                "collected_amount": 1561350
+                "total_parcels": 57,
+                "collected_amount": 2238509
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1607134,
-                "route_id": 72521835,
+                "route_id": 72975657,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Muchammad Solahudin",
-                "total_parcels": 58,
-                "collected_amount": 4031756
+                "total_parcels": 74,
+                "collected_amount": 4108572
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1622335,
-                "route_id": 72521626,
+                "route_id": 72975666,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Achmad Miftakhurahman",
-                "total_parcels": 20,
-                "collected_amount": 1161599
+                "total_parcels": 52,
+                "collected_amount": 2441632
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1623377,
+                "route_id": 73008085,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-Freelance Rider-Abda'u Bangkit Pamungkas",
+                "total_parcels": 41,
+                "collected_amount": 2615149
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1648646,
-                "route_id": 72520364,
+                "route_id": 72975655,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Dwi Asmoro",
-                "total_parcels": 23,
-                "collected_amount": 1599414
+                "total_parcels": 58,
+                "collected_amount": 3527517
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1653650,
-                "route_id": 72541958,
+                "route_id": 73006821,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Khoirul Muhtar",
-                "total_parcels": 32,
-                "collected_amount": 2128009
+                "total_parcels": 9,
+                "collected_amount": 946690
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1663318,
-                "route_id": 72522140,
+                "route_id": 72975628,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-MUKHAMMAD AZKA MAULANA",
-                "total_parcels": 54,
-                "collected_amount": 3644258
+                "total_parcels": 60,
+                "collected_amount": 3399943
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1668180,
-                "route_id": 72521831,
+                "route_id": 72975659,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Ahmad Mahfud",
-                "total_parcels": 40,
-                "collected_amount": 3598356
+                "total_parcels": 78,
+                "collected_amount": 4825496
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1676399,
+                "route_id": 72975649,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-Freelance Rider-Sudiyono",
+                "total_parcels": 45,
+                "collected_amount": 2448337
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1678597,
-                "route_id": 72522147,
+                "route_id": 72975636,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Agus Istiyanto",
                 "total_parcels": 57,
-                "collected_amount": 3619230
+                "collected_amount": 2915154
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1678944,
-                "route_id": 72519927,
+                "route_id": 72977150,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-ARDI PRADANA",
-                "total_parcels": 34,
-                "collected_amount": 2210390
+                "total_parcels": 40,
+                "collected_amount": 2374549
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1682333,
-                "route_id": 72519931,
+                "route_id": 72975624,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-JOHAN FITRIAN WICAKSANA",
-                "total_parcels": 41,
-                "collected_amount": 2917153
+                "total_parcels": 42,
+                "collected_amount": 3705960
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1682940,
-                "route_id": 72521832,
+                "route_id": 72975660,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-M Raihan Alfah Rezi",
-                "total_parcels": 40,
-                "collected_amount": 2572630
+                "total_parcels": 55,
+                "collected_amount": 3677109
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1683927,
-                "route_id": 72521619,
+                "route_id": 72975677,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-RAHADYAN PATRIA WIJAYA",
-                "total_parcels": 32,
-                "collected_amount": 1767892
+                "total_parcels": 7,
+                "collected_amount": 586834
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1686136,
-                "route_id": 72520359,
+                "route_id": 72975650,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Denis Sapta Ramadhani",
-                "total_parcels": 47,
-                "collected_amount": 2384881
+                "total_parcels": 79,
+                "collected_amount": 4856436
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1686142,
+                "route_id": 72975658,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-Freelance Rider-Mukhammad Faisal hadi",
+                "total_parcels": 55,
+                "collected_amount": 3056487
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1686518,
-                "route_id": 72522149,
+                "route_id": 72975639,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-Freelance Rider-Agung Sulistiyo",
-                "total_parcels": 25,
-                "collected_amount": 2006849
-            },
-            {
-                "hub_id": 1344,
-                "driver_id": 1690774,
-                "route_id": 72519923,
-                "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH Rider-Choísunni'Am",
-                "total_parcels": 35,
-                "collected_amount": 2017203
-            },
-            {
-                "hub_id": 1344,
-                "driver_id": 1695544,
-                "route_id": 72545192,
-                "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH Rider-Putra Aji Pamungkas",
-                "total_parcels": 47,
-                "collected_amount": 2569933
+                "total_parcels": 46,
+                "collected_amount": 2015355
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1697951,
-                "route_id": 72520360,
+                "route_id": 72975652,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Slamet Puji Nugroho",
-                "total_parcels": 44,
-                "collected_amount": 2547853
-            },
-            {
-                "hub_id": 1344,
-                "driver_id": 1697976,
-                "route_id": 72519928,
-                "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH RIDER-Feri Oktora",
-                "total_parcels": 41,
-                "collected_amount": 2407182
+                "total_parcels": 74,
+                "collected_amount": 4018704
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1698082,
-                "route_id": 72522143,
+                "route_id": 72975632,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-FITRI",
-                "total_parcels": 43,
-                "collected_amount": 2610573
+                "total_parcels": 85,
+                "collected_amount": 4815903
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1698618,
-                "route_id": 72521621,
+                "route_id": 72975680,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Bagus Purwanto",
-                "total_parcels": 40,
-                "collected_amount": 2618853
-            },
-            {
-                "hub_id": 1344,
-                "driver_id": 1698678,
-                "route_id": 72519925,
-                "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH Driver-Imam Satria Yudha",
-                "total_parcels": 36,
-                "collected_amount": 2514016
+                "total_parcels": 29,
+                "collected_amount": 1938544
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1699173,
-                "route_id": 72521103,
+                "route_id": 72975690,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Mbariyono",
-                "total_parcels": 12,
-                "collected_amount": 398794
+                "total_parcels": 48,
+                "collected_amount": 2635994
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1699595,
-                "route_id": 72521108,
+                "route_id": 72975686,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Noufal Adha Saputra",
-                "total_parcels": 38,
-                "collected_amount": 2060048
+                "total_parcels": 46,
+                "collected_amount": 3615462
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1699670,
-                "route_id": 72520361,
+                "route_id": 72975651,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Rina",
-                "total_parcels": 38,
-                "collected_amount": 2064464
+                "total_parcels": 73,
+                "collected_amount": 3736430
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1699897,
-                "route_id": 72521376,
+                "route_id": 72975675,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Krido Himawan",
-                "total_parcels": 51,
-                "collected_amount": 3542626
+                "total_parcels": 53,
+                "collected_amount": 3747422
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1700035,
-                "route_id": 72521104,
+                "route_id": 72975693,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Feri Ardhianta",
-                "total_parcels": 27,
-                "collected_amount": 1468438
+                "total_parcels": 28,
+                "collected_amount": 2180123
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1700451,
-                "route_id": 72522144,
+                "route_id": 72975634,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Ariyadi",
-                "total_parcels": 45,
-                "collected_amount": 2851297
-            },
-            {
-                "hub_id": 1344,
-                "driver_id": 1700466,
-                "route_id": 72520223,
-                "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH RIDER-Zena Aqsha Widodo",
-                "total_parcels": 53,
-                "collected_amount": 3083426
+                "total_parcels": 50,
+                "collected_amount": 2034172
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1700595,
-                "route_id": 72522148,
+                "route_id": 72975637,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Itok Sarifiono",
-                "total_parcels": 40,
-                "collected_amount": 2163088
+                "total_parcels": 45,
+                "collected_amount": 3055898
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1701007,
-                "route_id": 72542466,
+                "route_id": 72975630,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Achmad Fayfudin Lucki Kurniawan",
-                "total_parcels": 35,
-                "collected_amount": 2052576
+                "total_parcels": 48,
+                "collected_amount": 2611042
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1701049,
+                "route_id": 72975631,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Prayogo Sektio Wibowo",
+                "total_parcels": 38,
+                "collected_amount": 2543985
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1701050,
-                "route_id": 72522150,
+                "route_id": 72975640,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Nur Rohman",
-                "total_parcels": 29,
-                "collected_amount": 1796623
+                "total_parcels": 57,
+                "collected_amount": 4059774
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1701060,
-                "route_id": 72521625,
+                "route_id": 72975663,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Ragil Tulus Wibowo",
-                "total_parcels": 39,
-                "collected_amount": 2280079
+                "total_parcels": 36,
+                "collected_amount": 3112925
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1701062,
-                "route_id": 72520225,
+                "route_id": 72975647,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Didik Prastiyanto",
-                "total_parcels": 43,
-                "collected_amount": 3067178
+                "total_parcels": 45,
+                "collected_amount": 3368041
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1701900,
-                "route_id": 72521107,
+                "route_id": 72975684,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Imam Efendi",
-                "total_parcels": 53,
-                "collected_amount": 3874705
+                "total_parcels": 46,
+                "collected_amount": 2663896
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1701910,
+                "route_id": 72975683,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Purnama Saputra",
+                "total_parcels": 62,
+                "collected_amount": 3083878
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1701961,
-                "route_id": 72521371,
+                "route_id": 72975669,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Rizki Aji Nugroho",
-                "total_parcels": 45,
-                "collected_amount": 3513742
-            },
-            {
-                "hub_id": 1344,
-                "driver_id": 1701968,
-                "route_id": 72520362,
-                "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH Rider-Muhammad Wimi Akhsan",
-                "total_parcels": 52,
-                "collected_amount": 3207694
+                "total_parcels": 53,
+                "collected_amount": 3295300
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1702007,
-                "route_id": 72521101,
+                "route_id": 72975688,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Rokhmat Pujiarto",
-                "total_parcels": 18,
-                "collected_amount": 857022
+                "total_parcels": 29,
+                "collected_amount": 1235397
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1702037,
-                "route_id": 72521834,
+                "route_id": 72975661,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Muhamad Faizal Bagas",
-                "total_parcels": 29,
-                "collected_amount": 2258982
+                "total_parcels": 67,
+                "collected_amount": 3929929
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1702101,
-                "route_id": 72521627,
+                "route_id": 72975665,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Danindra Aryo Nugroho",
-                "total_parcels": 22,
-                "collected_amount": 1580587
+                "total_parcels": 43,
+                "collected_amount": 2508057
             },
             {
                 "hub_id": 1344,
-                "driver_id": 1703557,
-                "route_id": 72521373,
+                "driver_id": 1703132,
+                "route_id": 72975627,
                 "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH Rider-Bahrul Ulum",
-                "total_parcels": 29,
-                "collected_amount": 1446899
+                "driver_name": "SRG-TMG-SPH Rider-Happy Setiawan",
+                "total_parcels": 42,
+                "collected_amount": 3446591
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1703596,
-                "route_id": 72521620,
+                "route_id": 73007452,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Muchamad Nur Fadhlilah",
-                "total_parcels": 4,
-                "collected_amount": 99372
+                "total_parcels": 26,
+                "collected_amount": 1982020
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1704510,
-                "route_id": 72520221,
+                "route_id": 73007349,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Tri Susilo Wardoyo",
-                "total_parcels": 24,
-                "collected_amount": 1215488
+                "total_parcels": 30,
+                "collected_amount": 2169570
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1705417,
-                "route_id": 72520220,
+                "route_id": 72975643,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Taufik Diyanto",
-                "total_parcels": 45,
-                "collected_amount": 2354358
+                "total_parcels": 55,
+                "collected_amount": 2913236
             },
             {
                 "hub_id": 1344,
-                "driver_id": 1706445,
-                "route_id": 72521837,
+                "driver_id": 1706973,
+                "route_id": 72975682,
                 "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH Rider-Ali Sofyan",
-                "total_parcels": 43,
-                "collected_amount": 2532485
+                "driver_name": "SRG-TMG-SPH Rider-Aldaka Tri Wijayanto",
+                "total_parcels": 41,
+                "collected_amount": 2038183
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1707342,
-                "route_id": 72521105,
+                "route_id": 72975692,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Syaiful Addin",
-                "total_parcels": 24,
-                "collected_amount": 1609809
+                "total_parcels": 46,
+                "collected_amount": 2648083
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1707404,
-                "route_id": 72519921,
+                "route_id": 72975623,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Driver-Ali Mustofa",
-                "total_parcels": 20,
-                "collected_amount": 2139995
+                "total_parcels": 21,
+                "collected_amount": 3086095
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1707542,
-                "route_id": 72521102,
+                "route_id": 72975689,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Muhamad Sofyan Setyo aji",
-                "total_parcels": 25,
-                "collected_amount": 1079828
+                "total_parcels": 36,
+                "collected_amount": 2425571
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1708873,
+                "route_id": 72975656,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Satrio Wibowo",
+                "total_parcels": 70,
+                "collected_amount": 3949733
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1712045,
+                "route_id": 73003463,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Wimbo Sektioko",
+                "total_parcels": 33,
+                "collected_amount": 1868028
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1716205,
-                "route_id": 72520226,
+                "route_id": 72975648,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Sobrian Hendy Aditya",
-                "total_parcels": 16,
-                "collected_amount": 860355
-            },
-            {
-                "hub_id": 1344,
-                "driver_id": 1716933,
-                "route_id": 72521374,
-                "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH Rider-Ivan Ade Mariza",
-                "total_parcels": 24,
-                "collected_amount": 1357897
+                "total_parcels": 39,
+                "collected_amount": 2773387
             },
             {
                 "hub_id": 1344,
                 "driver_id": 1716934,
-                "route_id": 72522142,
+                "route_id": 72975629,
                 "hub_name": "SRG-TMG",
                 "driver_name": "SRG-TMG-SPH Rider-Rizki Saputra",
-                "total_parcels": 21,
-                "collected_amount": 1480396
+                "total_parcels": 35,
+                "collected_amount": 1756395
             },
             {
                 "hub_id": 1344,
-                "driver_id": 1716942,
-                "route_id": 72521833,
+                "driver_id": 1718454,
+                "route_id": 72975966,
                 "hub_name": "SRG-TMG",
-                "driver_name": "SRG-TMG-SPH Rider-Restu Ferdiansyah",
-                "total_parcels": 25,
-                "collected_amount": 1549653
+                "driver_name": "SRG-TMG-SPH Rider-Muhammad Sandy Prasetya",
+                "total_parcels": 46,
+                "collected_amount": 2455109
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1718508,
+                "route_id": 72975671,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Muchammad Rizal Primadi",
+                "total_parcels": 34,
+                "collected_amount": 1846927
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1719521,
+                "route_id": 72975964,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH RIDER-Rafid Darma Dian Ihsandi",
+                "total_parcels": 17,
+                "collected_amount": 1279949
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1719524,
+                "route_id": 72975965,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH RIDER-Sukipto",
+                "total_parcels": 44,
+                "collected_amount": 2881079
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1719564,
+                "route_id": 73004262,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Muhammad Abdul Badi",
+                "total_parcels": 16,
+                "collected_amount": 1066071
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1719776,
+                "route_id": 73005752,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Yusuf Pujiharto",
+                "total_parcels": 19,
+                "collected_amount": 941569
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1719778,
+                "route_id": 73005613,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Baskoro Agus Budiarto",
+                "total_parcels": 21,
+                "collected_amount": 1570978
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1719806,
+                "route_id": 73007567,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Arif Budiyawan",
+                "total_parcels": 2,
+                "collected_amount": 167103
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1719807,
+                "route_id": 73007331,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Wachid Prasetyo Utomo",
+                "total_parcels": 19,
+                "collected_amount": 1188512
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1719809,
+                "route_id": 73007226,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Faishal Daffa",
+                "total_parcels": 7,
+                "collected_amount": 358441
+            },
+            {
+                "hub_id": 1344,
+                "driver_id": 1719833,
+                "route_id": 73008062,
+                "hub_name": "SRG-TMG",
+                "driver_name": "SRG-TMG-SPH Rider-Fajar Bagus Kurniawan",
+                "total_parcels": 48,
+                "collected_amount": 2341757
             }
         ]
     }
