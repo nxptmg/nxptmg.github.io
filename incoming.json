@@ -2688,22 +2688,68 @@
                     },
                     "shipmentType": "LAND_HAUL",
                     "entrySource": "MANUAL",
-                    "status": "Pending",
+                    "status": "Closed",
                     "reprocessed": false,
                     "isDangerousGoods": false,
                     "endDate": null,
-                    "arrivalDateTime": null,
-                    "sla": null,
+                    "arrivalDateTime": "2024-12-26T05:00:00Z",
+                    "sla": "2024-12-26T05:00:00Z",
                     "comments": "TMG BULKY",
                     "createdAt": "2024-12-25T17:48:35Z",
-                    "updatedAt": null,
+                    "updatedAt": "2024-12-25T23:32:38Z",
                     "mawb": null,
                     "shipmentTrip": {
-                        "nextTripId": "0",
+                        "nextTripId": "13149042",
                         "currentTripId": "0",
-                        "dropoffTripId": "0"
+                        "dropoffTripId": "13149042"
                     },
-                    "shipmentOrders": [],
+                    "shipmentOrders": [
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388207098,
+                            "trackingId": "NJVTT06122331930"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389079960,
+                            "trackingId": "NJVTT06126106230"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389102477,
+                            "trackingId": "NJVTT06122716432"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389198111,
+                            "trackingId": "SHP6666249055"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389235986,
+                            "trackingId": "NJVTT06121267131"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389267219,
+                            "trackingId": "NJVTT06123277434"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389371050,
+                            "trackingId": "NJVTT06127078231"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389407697,
+                            "trackingId": "NJVTT06128708432"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389460764,
+                            "trackingId": "NJVTT06126608236"
+                        }
+                    ],
                     "shipmentEvents": [
                         {
                             "event": "SHIPMENT_CREATED",
@@ -2716,9 +2762,28 @@
                             "status": "Pending",
                             "extData": null,
                             "createdAt": "2024-12-25T17:48:35Z"
+                        },
+                        {
+                            "event": "SHIPMENT_CLOSED",
+                            "userId": "SORT-Ardiansyahpratama",
+                            "hub": {
+                                "id": "30",
+                                "country": "id",
+                                "name": "SRG-SRG"
+                            },
+                            "status": "Closed",
+                            "extData": "{\"username\":\"SORT-Ardiansyahpratama\",\"hub_id\":30,\"hub_system_id\":\"id\",\"position\":\"Warehouse\"}",
+                            "createdAt": "2024-12-25T23:32:38Z"
                         }
                     ],
-                    "movementEvents": []
+                    "movementEvents": [
+                        {
+                            "event": "SLA_CALCULATION",
+                            "status": "SUCCESS",
+                            "extData": "{\"path_cache\":{\"full_path\":[\"SRG-SRG (id)\",\"SRG-TMG (id)\"],\"full_path_hub_ids\":[30,1344],\"trip_path\":[13149042]},\"crossdock_detail\":null,\"error_message\":null}",
+                            "createdAt": "2024-12-25T23:32:38Z"
+                        }
+                    ]
                 },
                 {
                     "id": "186074254",
@@ -4537,22 +4602,33 @@
                     },
                     "shipmentType": "LAND_HAUL",
                     "entrySource": "MANUAL",
-                    "status": "Pending",
+                    "status": "Closed",
                     "reprocessed": false,
                     "isDangerousGoods": false,
                     "endDate": null,
-                    "arrivalDateTime": null,
-                    "sla": null,
+                    "arrivalDateTime": "2024-12-27T00:00:00Z",
+                    "sla": "2024-12-27T00:00:00Z",
                     "comments": "W1 TMG PRIOR-TIKTOK 20",
                     "createdAt": "2024-12-25T16:47:33Z",
-                    "updatedAt": null,
+                    "updatedAt": "2024-12-25T23:36:20Z",
                     "mawb": null,
                     "shipmentTrip": {
-                        "nextTripId": "0",
+                        "nextTripId": "13149470",
                         "currentTripId": "0",
-                        "dropoffTripId": "0"
+                        "dropoffTripId": "13149470"
                     },
-                    "shipmentOrders": [],
+                    "shipmentOrders": [
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389078829,
+                            "trackingId": "NJVTT06122916630"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389325644,
+                            "trackingId": "NJVTT06123227437"
+                        }
+                    ],
                     "shipmentEvents": [
                         {
                             "event": "SHIPMENT_CREATED",
@@ -4565,9 +4641,28 @@
                             "status": "Pending",
                             "extData": null,
                             "createdAt": "2024-12-25T16:47:33Z"
+                        },
+                        {
+                            "event": "SHIPMENT_CLOSED",
+                            "userId": "SORT-Romdona",
+                            "hub": {
+                                "id": "439",
+                                "country": "id",
+                                "name": "JKT-MAC"
+                            },
+                            "status": "Closed",
+                            "extData": "{\"username\":\"SORT-ROMDONA\",\"hub_id\":439,\"hub_system_id\":\"id\",\"position\":\"Jabar Small\"}",
+                            "createdAt": "2024-12-25T23:36:19Z"
                         }
                     ],
-                    "movementEvents": []
+                    "movementEvents": [
+                        {
+                            "event": "SLA_CALCULATION",
+                            "status": "SUCCESS",
+                            "extData": "{\"path_cache\":{\"full_path\":[\"JKT-MAC (id)\",\"SRG-SRG (id)\",\"SRG-TMG (id)\"],\"full_path_hub_ids\":[439,30,1344],\"trip_path\":[13149470,13155331]},\"crossdock_detail\":null,\"error_message\":null}",
+                            "createdAt": "2024-12-25T23:36:20Z"
+                        }
+                    ]
                 },
                 {
                     "id": "186065494",
@@ -4839,6 +4934,18 @@
                             "status": "Closed",
                             "extData": "{\"username\":\"SORT-rapikinxp\",\"hub_id\":439,\"hub_system_id\":\"id\",\"position\":\"Inbound Team\"}",
                             "createdAt": "2024-12-25T20:00:42Z"
+                        },
+                        {
+                            "event": "ADD_TO_VAN_INBOUND",
+                            "userId": "cif-st-fauzan.ibnuhrizal@ninjavan.co",
+                            "hub": {
+                                "id": "439",
+                                "country": "id",
+                                "name": "JKT-MAC"
+                            },
+                            "status": "Closed",
+                            "extData": "{\"trip_data\":{\"nonAirportToAirport\":false,\"nonSeaportToSeaport\":false,\"trip_id\":13149470,\"origin_hub\":\"JKT-MAC\",\"destination_hub\":\"SRG-SRG\"},\"source\":null}",
+                            "createdAt": "2024-12-25T23:50:03Z"
                         }
                     ],
                     "movementEvents": [
@@ -5877,22 +5984,68 @@
                     },
                     "shipmentType": "LAND_HAUL",
                     "entrySource": "MANUAL",
-                    "status": "Pending",
+                    "status": "Closed",
                     "reprocessed": false,
                     "isDangerousGoods": false,
                     "endDate": null,
-                    "arrivalDateTime": null,
-                    "sla": null,
+                    "arrivalDateTime": "2024-12-26T05:00:00Z",
+                    "sla": "2024-12-26T05:00:00Z",
                     "comments": "TMG K34",
                     "createdAt": "2024-12-25T11:29:17Z",
-                    "updatedAt": null,
+                    "updatedAt": "2024-12-25T23:40:01Z",
                     "mawb": null,
                     "shipmentTrip": {
-                        "nextTripId": "0",
+                        "nextTripId": "13149042",
                         "currentTripId": "0",
-                        "dropoffTripId": "0"
+                        "dropoffTripId": "13149042"
                     },
-                    "shipmentOrders": [],
+                    "shipmentOrders": [
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389097284,
+                            "trackingId": "NJVTT06125336232"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389140280,
+                            "trackingId": "NJVTT06129536135"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389290957,
+                            "trackingId": "NJVTT06129737835"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389429125,
+                            "trackingId": "NJVTT06128138135"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389613445,
+                            "trackingId": "NJVTT06128769736"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389680604,
+                            "trackingId": "NJVTT06128030241"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389734887,
+                            "trackingId": "NVIDWNPLY000016737"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389735278,
+                            "trackingId": "NLIDAP1804927930"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389760090,
+                            "trackingId": "LNID2412BESLAEJN"
+                        }
+                    ],
                     "shipmentEvents": [
                         {
                             "event": "SHIPMENT_CREATED",
@@ -5905,9 +6058,28 @@
                             "status": "Pending",
                             "extData": null,
                             "createdAt": "2024-12-25T11:29:17Z"
+                        },
+                        {
+                            "event": "SHIPMENT_CLOSED",
+                            "userId": "SORT-Ahmadfarkhan",
+                            "hub": {
+                                "id": "30",
+                                "country": "id",
+                                "name": "SRG-SRG"
+                            },
+                            "status": "Closed",
+                            "extData": "{\"username\":\"SORT-Ahmadfarkhan\",\"hub_id\":30,\"hub_system_id\":\"id\",\"position\":\"Warehouse DMM\"}",
+                            "createdAt": "2024-12-25T23:40:01Z"
                         }
                     ],
-                    "movementEvents": []
+                    "movementEvents": [
+                        {
+                            "event": "SLA_CALCULATION",
+                            "status": "SUCCESS",
+                            "extData": "{\"path_cache\":{\"full_path\":[\"SRG-SRG (id)\",\"SRG-TMG (id)\"],\"full_path_hub_ids\":[30,1344],\"trip_path\":[13149042]},\"crossdock_detail\":null,\"error_message\":null}",
+                            "createdAt": "2024-12-25T23:40:01Z"
+                        }
+                    ]
                 },
                 {
                     "id": "186038833",
@@ -5930,22 +6102,223 @@
                     },
                     "shipmentType": "LAND_HAUL",
                     "entrySource": "MANUAL",
-                    "status": "Pending",
+                    "status": "Closed",
                     "reprocessed": false,
                     "isDangerousGoods": false,
                     "endDate": null,
-                    "arrivalDateTime": null,
-                    "sla": null,
+                    "arrivalDateTime": "2024-12-26T05:00:00Z",
+                    "sla": "2024-12-26T05:00:00Z",
                     "comments": "TMG K33",
                     "createdAt": "2024-12-25T11:29:13Z",
-                    "updatedAt": null,
+                    "updatedAt": "2024-12-25T23:28:41Z",
                     "mawb": null,
                     "shipmentTrip": {
-                        "nextTripId": "0",
+                        "nextTripId": "13149042",
                         "currentTripId": "0",
-                        "dropoffTripId": "0"
+                        "dropoffTripId": "13149042"
                     },
-                    "shipmentOrders": [],
+                    "shipmentOrders": [
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1387807371,
+                            "trackingId": "NJVTT06129578120"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388105127,
+                            "trackingId": "NJVTT06123350133"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388820530,
+                            "trackingId": "SHP6624917710"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388908671,
+                            "trackingId": "SHP1895849958"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388934565,
+                            "trackingId": "NJVTT06121565930"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388968972,
+                            "trackingId": "NJVTT06125255133"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388969071,
+                            "trackingId": "NJVTT06128215233"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388972654,
+                            "trackingId": "NJVTT06123785132"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388976235,
+                            "trackingId": "NJVTT06127005533"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389095196,
+                            "trackingId": "NJVTT06124136932"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389129534,
+                            "trackingId": "NJVTT06128796334"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389135707,
+                            "trackingId": "NJVTT06127126934"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389152850,
+                            "trackingId": "NLIDAP1804873294"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389188287,
+                            "trackingId": "NJVTT06127956138"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389256073,
+                            "trackingId": "NJVTT06121517433"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389257426,
+                            "trackingId": "NJVTT06123727132"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389271618,
+                            "trackingId": "NJVTT06127537234"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389290533,
+                            "trackingId": "NJVTT06120737235"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389292923,
+                            "trackingId": "NJVTT06125937235"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389317772,
+                            "trackingId": "NJVTT06126537437"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389355308,
+                            "trackingId": "NJVTT06126247439"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389380710,
+                            "trackingId": "NJVTT06124758631"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389382585,
+                            "trackingId": "NJVTT06125068431"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389438523,
+                            "trackingId": "NJVTT06128888634"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389453543,
+                            "trackingId": "NJVTT06123028336"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389467721,
+                            "trackingId": "NJVTT06127058838"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389497052,
+                            "trackingId": "NJVTT06122299130"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389510393,
+                            "trackingId": "NJVTT06126079631"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389512781,
+                            "trackingId": "NJVTT06124179931"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389515282,
+                            "trackingId": "NJVTT06127429530"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389530835,
+                            "trackingId": "KRMJAOID-9335398991"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389570247,
+                            "trackingId": "NJVTT06128809333"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389585991,
+                            "trackingId": "FWZZZFAWAZ223792519"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389599373,
+                            "trackingId": "NJVTT06124869235"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389610572,
+                            "trackingId": "NJVTT06121299337"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389611558,
+                            "trackingId": "NJVTT06129299737"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389623309,
+                            "trackingId": "NJVTT06120429237"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389657777,
+                            "trackingId": "NJVTT06126109839"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389698803,
+                            "trackingId": "NJVTT06120380241"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389703591,
+                            "trackingId": "KOMRCKOM2412255301789587"
+                        }
+                    ],
                     "shipmentEvents": [
                         {
                             "event": "SHIPMENT_CREATED",
@@ -5958,9 +6331,28 @@
                             "status": "Pending",
                             "extData": null,
                             "createdAt": "2024-12-25T11:29:13Z"
+                        },
+                        {
+                            "event": "SHIPMENT_CLOSED",
+                            "userId": "Sort-Gunawan_",
+                            "hub": {
+                                "id": "30",
+                                "country": "id",
+                                "name": "SRG-SRG"
+                            },
+                            "status": "Closed",
+                            "extData": "{\"username\":\"SORT-Gunawan_\",\"hub_id\":30,\"hub_system_id\":\"id\",\"position\":\"WH Supervisor\"}",
+                            "createdAt": "2024-12-25T23:28:40Z"
                         }
                     ],
-                    "movementEvents": []
+                    "movementEvents": [
+                        {
+                            "event": "SLA_CALCULATION",
+                            "status": "SUCCESS",
+                            "extData": "{\"path_cache\":{\"full_path\":[\"SRG-SRG (id)\",\"SRG-TMG (id)\"],\"full_path_hub_ids\":[30,1344],\"trip_path\":[13149042]},\"crossdock_detail\":null,\"error_message\":null}",
+                            "createdAt": "2024-12-25T23:28:41Z"
+                        }
+                    ]
                 },
                 {
                     "id": "186038819",
@@ -5983,22 +6375,373 @@
                     },
                     "shipmentType": "LAND_HAUL",
                     "entrySource": "MANUAL",
-                    "status": "Pending",
+                    "status": "Closed",
                     "reprocessed": false,
                     "isDangerousGoods": false,
                     "endDate": null,
-                    "arrivalDateTime": null,
-                    "sla": null,
+                    "arrivalDateTime": "2024-12-26T05:00:00Z",
+                    "sla": "2024-12-26T05:00:00Z",
                     "comments": "TMG K32",
                     "createdAt": "2024-12-25T11:29:09Z",
-                    "updatedAt": null,
+                    "updatedAt": "2024-12-25T23:18:25Z",
                     "mawb": null,
                     "shipmentTrip": {
-                        "nextTripId": "0",
+                        "nextTripId": "13149042",
                         "currentTripId": "0",
-                        "dropoffTripId": "0"
+                        "dropoffTripId": "13149042"
                     },
-                    "shipmentOrders": [],
+                    "shipmentOrders": [
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1378411821,
+                            "trackingId": "NJVTT06114978566"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1387184726,
+                            "trackingId": "NJVTT06122844628"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1387184749,
+                            "trackingId": "NJVTT06126804628"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388105032,
+                            "trackingId": "NJVTT06124420132"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388105052,
+                            "trackingId": "NJVTT06127400032"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388454744,
+                            "trackingId": "NJVTT06121612037"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388748808,
+                            "trackingId": "NJVTT06128424935"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388917619,
+                            "trackingId": "NJVTT06124305030"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388969327,
+                            "trackingId": "NJVTT06128275433"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388969394,
+                            "trackingId": "NJVTT06129425032"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388976360,
+                            "trackingId": "NJVTT06127025633"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1388977208,
+                            "trackingId": "NJVTT06120995433"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389041023,
+                            "trackingId": "NJVTT06129265437"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389047067,
+                            "trackingId": "NJVTT06129645937"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389089102,
+                            "trackingId": "NJVTT06121766930"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389094768,
+                            "trackingId": "NJVTT06122116632"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389113515,
+                            "trackingId": "NJVTT06125686232"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389137668,
+                            "trackingId": "NJVTT06126326334"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389183538,
+                            "trackingId": "NJVTT06124646037"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389187631,
+                            "trackingId": "NJVTT06126896638"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389215232,
+                            "trackingId": "NJVTT06122777030"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389218350,
+                            "trackingId": "NJVTT06127977230"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389222716,
+                            "trackingId": "NJVTT06124227630"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389222720,
+                            "trackingId": "NJVTT06120217431"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389230306,
+                            "trackingId": "NJVTT06121857031"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389272924,
+                            "trackingId": "NJVTT06124787533"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389280754,
+                            "trackingId": "NJVTT06127267534"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389283492,
+                            "trackingId": "NJVTT06121427234"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389301537,
+                            "trackingId": "NJVTT06123457436"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389307884,
+                            "trackingId": "NJVTT06124837736"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389325896,
+                            "trackingId": "NJVTT06120207737"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389338238,
+                            "trackingId": "NJVTT06123917438"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389346479,
+                            "trackingId": "NJVTT06121687438"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389350707,
+                            "trackingId": "NJVTT06128757639"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389356178,
+                            "trackingId": "NJVTT06126207939"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389365279,
+                            "trackingId": "NJVTT06126807439"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389373075,
+                            "trackingId": "NJVTT06120258131"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389381937,
+                            "trackingId": "NJVTT06128838631"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389389622,
+                            "trackingId": "NJVTT06121588231"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389401735,
+                            "trackingId": "NJVTT06122298133"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389407023,
+                            "trackingId": "NJVTT06120788032"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389432258,
+                            "trackingId": "NJVTT06122488134"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389450882,
+                            "trackingId": "NJVTT06128888135"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389453530,
+                            "trackingId": "NJVTT06127978836"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389463824,
+                            "trackingId": "NJVTT06126868236"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389474972,
+                            "trackingId": "NJVTT06120698638"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389483258,
+                            "trackingId": "NJVTT06121378139"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389485493,
+                            "trackingId": "NJVTT06124498639"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389487212,
+                            "trackingId": "NJVTT06127658039"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389490813,
+                            "trackingId": "NLIDAP1804905617"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389530279,
+                            "trackingId": "NJVTT06127359332"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389547024,
+                            "trackingId": "NJVTT06124219433"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389550823,
+                            "trackingId": "NJVTT06127479433"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389580309,
+                            "trackingId": "NJVTT06121239435"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389592091,
+                            "trackingId": "NJVTT06122209735"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389592345,
+                            "trackingId": "NJVTT06125249935"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389596232,
+                            "trackingId": "NJVTT06123689035"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389609414,
+                            "trackingId": "NJVTT06120139637"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389623877,
+                            "trackingId": "FIMAAJHN223792380"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389627271,
+                            "trackingId": "NJVTT06124279238"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389646756,
+                            "trackingId": "NJVTT06129159839"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389669124,
+                            "trackingId": "NLIDAP1804885953"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389675026,
+                            "trackingId": "NJVTT06124000840"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389681818,
+                            "trackingId": "NJVTT06127400540"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389690268,
+                            "trackingId": "NJVTT06120820840"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389704210,
+                            "trackingId": "NLIDAP1804925462"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389705795,
+                            "trackingId": "NLIDAP1804837982"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389713043,
+                            "trackingId": "NJVTT06129730242"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389768717,
+                            "trackingId": "NLIDAP1804925677"
+                        },
+                        {
+                            "orderCountry": "id",
+                            "orderId": 1389807551,
+                            "trackingId": "NLIDAP1804897475"
+                        }
+                    ],
                     "shipmentEvents": [
                         {
                             "event": "SHIPMENT_CREATED",
@@ -6011,9 +6754,28 @@
                             "status": "Pending",
                             "extData": null,
                             "createdAt": "2024-12-25T11:29:09Z"
+                        },
+                        {
+                            "event": "SHIPMENT_CLOSED",
+                            "userId": "Sort-Gunawan_",
+                            "hub": {
+                                "id": "30",
+                                "country": "id",
+                                "name": "SRG-SRG"
+                            },
+                            "status": "Closed",
+                            "extData": "{\"username\":\"SORT-Gunawan_\",\"hub_id\":30,\"hub_system_id\":\"id\",\"position\":\"WH Supervisor\"}",
+                            "createdAt": "2024-12-25T23:18:25Z"
                         }
                     ],
-                    "movementEvents": []
+                    "movementEvents": [
+                        {
+                            "event": "SLA_CALCULATION",
+                            "status": "SUCCESS",
+                            "extData": "{\"path_cache\":{\"full_path\":[\"SRG-SRG (id)\",\"SRG-TMG (id)\"],\"full_path_hub_ids\":[30,1344],\"trip_path\":[13149042]},\"crossdock_detail\":null,\"error_message\":null}",
+                            "createdAt": "2024-12-25T23:18:25Z"
+                        }
+                    ]
                 },
                 {
                     "id": "186038811",
@@ -6931,6 +7693,18 @@
                             "status": "Closed",
                             "extData": "{\"username\":\"SORT-rapikinxp\",\"hub_id\":439,\"hub_system_id\":\"id\",\"position\":\"Inbound Team\"}",
                             "createdAt": "2024-12-25T19:41:41Z"
+                        },
+                        {
+                            "event": "ADD_TO_VAN_INBOUND",
+                            "userId": "cif-st-fauzan.ibnuhrizal@ninjavan.co",
+                            "hub": {
+                                "id": "439",
+                                "country": "id",
+                                "name": "JKT-MAC"
+                            },
+                            "status": "Closed",
+                            "extData": "{\"trip_data\":{\"nonAirportToAirport\":false,\"nonSeaportToSeaport\":false,\"trip_id\":13149470,\"origin_hub\":\"JKT-MAC\",\"destination_hub\":\"SRG-SRG\"},\"source\":null}",
+                            "createdAt": "2024-12-25T23:50:11Z"
                         }
                     ],
                     "movementEvents": [
@@ -7064,6 +7838,18 @@
                             "status": "Closed",
                             "extData": "{\"username\":\"sort-heri.supriyadi27\",\"hub_id\":439,\"hub_system_id\":\"id\",\"position\":\"SORT-SMALL JALI\"}",
                             "createdAt": "2024-12-25T17:30:18Z"
+                        },
+                        {
+                            "event": "ADD_TO_VAN_INBOUND",
+                            "userId": "cif-st-fauzan.ibnuhrizal@ninjavan.co",
+                            "hub": {
+                                "id": "439",
+                                "country": "id",
+                                "name": "JKT-MAC"
+                            },
+                            "status": "Closed",
+                            "extData": "{\"trip_data\":{\"nonAirportToAirport\":false,\"nonSeaportToSeaport\":false,\"trip_id\":13149470,\"origin_hub\":\"JKT-MAC\",\"destination_hub\":\"SRG-SRG\"},\"source\":null}",
+                            "createdAt": "2024-12-25T23:35:54Z"
                         }
                     ],
                     "movementEvents": [
